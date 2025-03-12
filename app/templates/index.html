@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find Your Book</h1>
+      <form action="/recommendations" method="post">
+        <div class="form-group">
+          <label for="query">Enter your description:</label>
+          <input
+            type="text"
+            id="query"
+            name="query"
+            required
+            placeholder="e.g., Books discussing the ethical implications of artificial intelligence"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="k">Number of Recommendations:</label>
+          <input type="number" id="k" name="k" value="3" min="1" max="10" />
+        </div>
+
+        <button type="submit">Get Recommendations</button>
+      </form>
+
+      {% if error %}
+      <div class="error-message">Error: {{ error }}</div>
+      {% endif %}
+    </div>
+  </body>
+</html>
