@@ -34,6 +34,7 @@ By leveraging these embeddings, the project enables **efficient and accurate sem
 │   └── main.py                # FastAPI application logic
 ├── chroma_books_data/         # ChromaDB vector database (download separately)
 ├── create_vectorDB.ipynb      # Notebook for creating the vector database
+├── test_vectorDB.ipynb        # Notebook for testing the vector database
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
 ```
