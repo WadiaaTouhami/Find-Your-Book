@@ -49,8 +49,8 @@ By leveraging these embeddings, the project enables **efficient and accurate sem
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/your-repo/find-your-book.git
-cd find-your-book
+git clone https://github.com/WadiaaTouhami/Find-Your-Book.git
+cd Find-Your-Book
 ```
 
 ### 2. Create and activate a virtual environment
