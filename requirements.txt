@@ -1,0 +1,10 @@
+torch==2.5.1
+fastapi==0.115.6
+python-multipart==0.0.19
+jinja2==3.1.4
+langchain-community==0.3.11
+langchain-huggingface==0.1.2
+langchain-chroma==0.2.0  # Updated to latest stable version
+sentence-transformers==3.3.1
+chromadb==0.5.23
+uvicorn==0.32.1
