@@ -3,6 +3,9 @@
 ## Overview
 Find Your Book is a FastAPI-based book recommendation system that leverages sentence embeddings and a vector database (ChromaDB) to suggest books based on user queries.
 
+## Demo
+[Watch the demo video](https://drive.google.com/file/d/10J4raAzYOpViRX6447k6J87vv9A9HSe9/view?usp=sharing)
+
 ## Features
 - Uses `sentence-transformers/all-MiniLM-L6-v2` for embedding generation.
 - Stores and retrieves book embeddings using ChromaDB.
